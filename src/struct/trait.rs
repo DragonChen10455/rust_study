@@ -40,6 +40,7 @@ fn draw1(x: &dyn Node){
     x.draw();
 }
 
+// 特征对象大小不固定，但是他的引用类型大小固定
 fn draw2(x: Box<dyn Node>){
     x.draw();
 }
